@@ -2,7 +2,6 @@ const express = require("express");
 
 const router = express.Router();
 const searchWithApiController = require("../controllers/searchWithAPIController");
-const searchWithLibController = require("../controllers/searchWithLibraryController");
 
 //controller invoked via direct url 
 router.get('/v1/artist/:artistName',
