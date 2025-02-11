@@ -5,7 +5,7 @@ We also have an inmemory cache using noode-cache so that calls are reduced to th
 
 The API spec it supports would be 
 
-# there is v1 version which is directly invoking the api
+there is v1 version which is directly invoking the api
 
 ## /music-app/search/v1/artist/{band or artist}
 This endpoint returns the name of artists with id when there are multiple artists that matches or returns all the releases if its a single artist thats found
@@ -13,7 +13,7 @@ This endpoint returns the name of artists with id when there are multiple artist
 ## /music-app/search/v1/artist/{artistid}/releases
 This endpoint returns the releases associated to the artist by provided artist id
 
-
+TODO: We can also have a v2 version of api which can do this task by using thirdparty libraries instead of us invoking api.
 
 ## Example API's for different scenarios
 

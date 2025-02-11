@@ -30,7 +30,7 @@ getCollectionByArtist = async (request, response ) => {
            
             //setting in cache
             cache.set(cacheKey,apiResponse);
-            response.json(apiResponse);
+            response.json(apiResponse); 
 
         }else if (numberOfArtists<=0){
             response.status(404).json({
